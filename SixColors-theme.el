@@ -11,7 +11,7 @@
  '(highlight ((t (:background "#5ebd3e" :weight bold))))
  '(region ((t
   (:underline (:color "#ffb900" :style line)
-           :background "grey15"  :extend t))))
+           :background "grey30"  :extend t))))
  '(shadow ((t (:foreground "#FFB900" :weight thin))))
  '(secondary-selection ((t (:extend t :background "#F78200"))))
  '(trailing-whitespace ((t (:background "#E23838"))))
@@ -68,5 +68,6 @@
  '(company-tooltip-annotation ((t (:foreground "#000000" :background "#5EBD3E" :weight bold))))
  '(company-tooltip-annotation-selection ((t (:foreground "#000000" :background "#FFB900" :weight bold))))
  '(show-paren-mismatch ((t (:background "#e23838"))))
- '(completions-common-part ((t (:foreground "#ffb900" :weight bold)))))
+ '(completions-common-part ((t (:foreground "#ffb900" :weight bold))))
+ '(hl-line ((t (:background "gray15")))))
 (provide-theme 'SixColors)
