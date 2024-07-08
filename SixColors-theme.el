@@ -49,7 +49,7 @@
  '(header-line ((t (:box nil :foreground "grey20" :background "grey90" :inherit (mode-line)))))
  '(tooltip ((t (:foreground "systeminfotext" :background "systeminfowindow" :inherit (variable-pitch)))))
  '(mode-line ((t (:background "#000000" :foreground "#5Ebd3e" :box (:line-width (1 . 1) :color "#009cdf")))))
- '(mode-line-buffer-id ((t (:weight bold))))
+ '(mode-line-buffer-id ((t (:foreground "#F78200" :weight bold))))
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((t (:box (:line-width (2 . 2) :color "grey40" :style released-button)))))
  '(mode-line-inactive ((t (:weight light :box (:line-width (1 . -1) :color "grey75" :style nil) :foreground "grey20" :background "grey90" :inherit (mode-line)))))
