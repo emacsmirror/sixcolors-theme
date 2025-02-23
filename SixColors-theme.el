@@ -9,7 +9,7 @@
 
 ;;; Commentary:
 
-;; Just another theme for Emacs, based on the 
+;; Just another theme for Emacs, based on the
 ;; six colors of the original Apple logo
 
 ;;; Code:
@@ -17,7 +17,7 @@
 
 (deftheme sixcolors
   "A theme based on the six colors of the old Apple logo.
-   Created by Davide Mastromatteo on 2024-07-08.")
+Created by Davide Mastromatteo on 2024-07-08.")
 
 (custom-theme-set-faces
  'sixcolors
