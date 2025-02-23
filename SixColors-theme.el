@@ -1,3 +1,20 @@
+;;; sixcolors-theme.el --- Just another theme
+
+;; Author: Davide Mastromatteo <mastro35@gmail.com>
+;; URL: https://github.com/mastro35/sixcolors-theme
+;; Keywords: faces, colors
+;; Version: 1.0
+;; Package-Requires: ((emacs "27.1"))
+;; SPDX-License-Identifier: GPL-2.0-only
+
+;;; Commentary:
+
+;; Just another theme for Emacs, based on the 
+;; six colors of the original Apple logo
+
+;;; Code:
+
+
 (deftheme SixColors
   "A theme based on the six colors of the old Apple logo.
    Created by Davide Mastromatteo on 2024-07-08.")
@@ -87,5 +104,6 @@
                   (file-name-directory load-file-name))))
 
 ;; Automatically add this theme to the load path
-(provide-theme 'SixColors)
+(provide-theme 'sixcolors)
 
+;;; sixcolors-theme.el ends here
