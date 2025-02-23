@@ -15,12 +15,12 @@
 ;;; Code:
 
 
-(deftheme SixColors
+(deftheme sixcolors
   "A theme based on the six colors of the old Apple logo.
    Created by Davide Mastromatteo on 2024-07-08.")
 
 (custom-theme-set-faces
- 'SixColors
+ 'sixcolors
  '(default ((t (:foreground "ivory" :background "gray10" :stipple nil :inherit nil))))
  '(cursor ((t (:foreground "#000000" :background "#f78200"))))
  '(escape-glyph ((t (:foreground "#009cdf"))))
