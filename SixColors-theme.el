@@ -79,5 +79,10 @@
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#F78200"))))
  '(hl-line ((t (:background "gray15")))))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'SixColors)
 
