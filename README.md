@@ -21,4 +21,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## LICENSE
 
-This theme is licensed under the GPL-3.0-or-later license. See the LICENSE file for details.
+This theme is licensed under the GPL-2.0 license. See the LICENSE file for details.
