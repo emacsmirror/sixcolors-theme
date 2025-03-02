@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t;-*-
+
 ;;; sixcolors-theme.el --- Just another theme
 
 ;; Author: Davide Mastromatteo <mastro35@gmail.com>
