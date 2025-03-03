@@ -98,6 +98,8 @@ Created by Davide Mastromatteo on 2024-07-08.")
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#F78200"))))
  '(hl-line ((t (:background "gray15")))))
 
+(setq rainbow-delimiters-max-face-count 6)
+
 ;;;###autoload
 (and load-file-name
     (boundp 'custom-theme-load-path)
