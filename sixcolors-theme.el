@@ -1,6 +1,4 @@
-;; -*- lexical-binding: t;-*-
-
-;;; sixcolors-theme.el --- Just another theme
+;;; sixcolors-theme.el --- Just another theme -*- lexical-binding: t;-*-
 
 ;; Author: Davide Mastromatteo <mastro35@gmail.com>
 ;; URL: https://github.com/mastro35/sixcolors-theme
