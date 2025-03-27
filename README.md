@@ -5,15 +5,14 @@ If you like it, don't forget to check out also [SixColors-mode](https://github.c
 
 ## Installation
 
-I'm trying to publish the theme on Melpa so to be easily installed. 
-However, to install it manually you can use straight and put in your init.el this piece of elisp:
+This package is published on the Milkypostman’s Emacs Lisp Package Archive, better known as [MELPA](https://melpa.org/), the best repository for Emacs Packages out there.
+To install it, just add the Melpa repository to your init file and then 
 
 ```elisp
-(straight-use-package 
- '(SixColors-theme :type git :host github :repo "mastro35/SixColors-theme" :branch "main"))
-
-(load-theme 'SixColors t)
+(use-package sixcolors-theme :ensure t)
+(load-theme 'sixcolors t)
 ```
+That's it!
 
 ## Contributing
 
